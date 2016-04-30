@@ -4,11 +4,7 @@
     <meta charset="utf-8">
     <script type="text/javascript">
       var hash = function(cadena){
-        var minusculas = 'abcdefghijklmnopqrstuvwxyz';
-        var mayusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-        var signos = '!"#$%&()*+,-./:;<=>?@[]^_`ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»░▒▓│┤ÁÂÀ©╣║╗╝¢¥┐└┴┬├─┼ãÃ╚╔╩╦╠═╬¤ðÐÊËÈıÍÎÏ┘┌█▄¦Ì▀ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±‗¾¶§÷¸°¨·¹³²■';
         var vector=[];
-        var auxiliar= '';
         for (var i = 0; i < cadena.length; i++) {
           vector[i] = cadena.charAt(i);
           ascii= vector[i].charCodeAt(0);
