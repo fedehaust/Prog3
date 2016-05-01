@@ -95,7 +95,7 @@
         
         //Special Characters:
         if (let == "!") {letbin = letbin + sep + '00100001'}
-        //if (let == """) {letbin = letbin + sep + '00100010'}
+        if (let == '"') {letbin = letbin + sep + '00100010'}
         if (let == "#") {letbin = letbin + sep + '00100011'}
         if (let == "$") {letbin = letbin + sep + '00100100'}
         if (let == "%") {letbin = letbin + sep + '00100101'}
@@ -317,7 +317,7 @@
         if (let == "00100100") {letasc = letasc + '$'}
         if (let == "00100101") {letasc = letasc + '%'}
         if (let == "00100110") {letasc = letasc + '&'}
-        if (let == "00100111") {letasc = letasc + '''}
+        if (let == "00100111") {letasc = letasc + "'"}
         if (let == "00101000") {letasc = letasc + '('}
         if (let == "00101001") {letasc = letasc + ')'}
         if (let == "00101010") {letasc = letasc + '*'}
@@ -334,7 +334,7 @@
         if (let == "00111111") {letasc = letasc + '?'}
         if (let == "01000000") {letasc = letasc + '@'}
         if (let == "01011011") {letasc = letasc + '['}
-        if (let == "01011100") {letasc = letasc + '\'}
+        //if (let == "01011100") {letasc = letasc + '\'}
         if (let == "01011101") {letasc = letasc + ']'}
         if (let == "01011110") {letasc = letasc + '^'}
         if (let == "01011111") {letasc = letasc + '_'}
